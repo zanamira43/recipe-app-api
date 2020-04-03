@@ -1,5 +1,7 @@
 from rest_framework import serializers
 from core.models import Tag, Ingredient, Recipe
+from django.contrib.auth import get_user_model
+
 
 
 class TagSerializer(serializers.ModelSerializer):
@@ -30,7 +32,14 @@ class RecipeSerializer(serializers.ModelSerializer):
     many=True,
     queryset=Tag.objects.all()
   )
+  
+  
   class Meta:
     model = Recipe
-    fields = ('id', 'title', 'ingredients', 'tags', 'time_minutes', 'price', 'link')
+    fields = ('id', 'title', 'ingredients', 'tags', 'time_minutes', 'price', 'link', 'user')
     read_only_fields = ('id',)
+
+class RecipeDetailSerializer(RecipeSerializer):
+  """Serializer a recipe detail"""
+  ingredients = IngredientSerializer(many=True, read_only=True)
+  tags = TagSerializer(many=True, read_only=True)
