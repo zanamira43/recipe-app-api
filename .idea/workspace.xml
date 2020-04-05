@@ -2,18 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3567a62f-7864-4a6a-9e24-943aa2df8655" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/recipe_app_api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/recipe_app_api.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/migrations/0005_recipe_image.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/migrations/0006_auto_20200403_1622.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/migrations/0007_auto_20200403_1623.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pipfile" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pipfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/recipe/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/recipe/serializers.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/recipe/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/recipe/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/serializers.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,12 +29,16 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1ZoGs4YSmzF84iVmBRKALPg6xzG" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -55,15 +57,18 @@
     </task>
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="149" y="23" width="982" height="711" key="SettingsEditor" timestamp="1585896641158">
       <screen x="0" y="23" width="1280" height="711" />
     </state>
     <state x="149" y="23" width="982" height="711" key="SettingsEditor/0.23.1280.711@0.23.1280.711" timestamp="1585896641158" />
-    <state x="333" y="211" key="com.intellij.ide.util.TipDialog" timestamp="1585895315184">
+    <state x="333" y="211" key="com.intellij.ide.util.TipDialog" timestamp="1585914235272">
       <screen x="0" y="23" width="1280" height="711" />
     </state>
-    <state x="333" y="211" key="com.intellij.ide.util.TipDialog/0.23.1280.711@0.23.1280.711" timestamp="1585895315184" />
+    <state x="333" y="211" key="com.intellij.ide.util.TipDialog/0.23.1280.711@0.23.1280.711" timestamp="1585914235271" />
     <state x="305" y="58" width="670" height="676" key="search.everywhere.popup" timestamp="1585554916037">
       <screen x="0" y="23" width="1280" height="711" />
     </state>

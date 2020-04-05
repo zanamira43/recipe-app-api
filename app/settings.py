@@ -122,6 +122,6 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 MEDIA_URL = '/media/'  # 127.0.0.1/media
-MEDIA_ROOT = '/vol/web/media'  # base image or file directory
+MEDIA_ROOT = os.path.join(BASE_DIR, '/media')   # base image or file directory
 
 AUTH_USER_MODEL = 'core.User'
